@@ -1,0 +1,128 @@
+
+body {
+    font-family: 'Georgia';
+    background-color: rgb(252, 208, 216);
+    color: #880e4f;
+    display: flex; /*cette ligne et la suivante sont pour faire en sorte que le bouton du retour vers le haut et le texte ne se superpose pas*/
+    flex-direction: column;
+}
+
+header {
+    background-color: rgb(255, 79, 167);
+    text-align: center;
+}
+
+.centragedansleheader{
+    display: flex;
+    flex-direction: row;
+}
+
+.centragedansleheader a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1;
+}
+
+.imageenbloc{
+    display: block;
+}
+
+.loginbutton {
+    display: block;
+}
+
+.phrasedaccroche {
+    font-style: italic;
+}
+
+.menu {
+    font-style: italic;
+    position: sticky;
+    top: 0;
+    bottom: 0;
+    background-color: #880e4f;
+}
+
+.menu > ul{ 
+/*la mini fleche c'est pour signifier que ca 
+s'applique que sur les parents et pas les enfants*/
+    display: flex;
+    list-style: none;
+}
+
+.menu li {
+    width: 50%;
+    display: block;
+    padding: 6px;
+} 
+
+.menu li:hover{
+    background-color: #880e4f;
+}
+
+.personnage {
+    position: relative;
+}
+
+.perso{
+    list-style: none;
+    display: none;
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    background-color: #880e4f;
+    width: max-content;
+}
+
+.perso li a:hover{
+    background-color: #67093b;
+}
+
+.personnage:hover .perso{
+    display: block;
+}
+
+.menu li a{
+    color: rgb(252, 208, 216);
+    text-decoration: none; 
+    padding: 10px 60px;
+    display: block;
+    /*
+    margin: 10px;
+    border: 3px solid pink;
+    text-align: center;*/
+}
+
+h2 {
+    font-style: italic;
+    text-align: center;
+}
+
+h3 {
+    font-style: italic;
+
+}
+
+.container { /*le but est d'arrondir les bords de l'image */
+  display: inline-block; /* S'assurer que le conteneur s'adapte à l'image */
+  overflow: hidden; /* Cache tout ce qui dépasse du conteneur arrondi */
+  border-radius: 50px; 
+  text-align: center;
+}
+
+.Partie1 {
+    font-size: 90%; /*la taille du texte*/
+      flex: 1; /* prend tout l'espace restant */
+
+}
+
+footer {
+    font-style: italic;
+    background-color: rgb(255, 79, 167);
+    color: #880e4f;
+    text-align: center;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+}
