@@ -1,6 +1,7 @@
-# WEB — Site d'une association fictive
+# WEB — Site web d'une association fictive
 
-Site web réalisé dans le cadre d'une SAE (BUT Informatique).
-Pages statiques HTML/CSS et pages dynamiques PHP (gestion d'événements, connexion).
+Site web statique et dynamique réalisé pour une association fictive.  
+**Contenu :** pages HTML statiques · gestion d'événements · système de connexion  
+**Stack :** HTML · CSS · PHP
 
-> ⚠️ Projet académique, code non refactorisé.
+> Projet académique — BUT Informatique (⚠️code non refactorisé)
